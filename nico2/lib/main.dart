@@ -8,5 +8,12 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) {}
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: const Color(0x0ff4eddb),
+        body: Contrainer(),
+      ),
+    );
+  }
 }
